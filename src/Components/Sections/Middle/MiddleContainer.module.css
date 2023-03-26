@@ -1,0 +1,33 @@
+.navbarContainer{
+    position: fixed;
+/*  */
+width: 39.3vw
+}
+.twitterPostContainer{
+    margin-top: 7.2rem;
+    /* z-index: -2; */
+
+}
+.main{
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    border: 1px rgb(60, 60, 60) solid;
+
+   
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.postContainer{
+  
+
+    width: 100%;
+    height: 100vh;
+}
+@media screen and (max-width:600px){
+    .navbarContainer{
+    width: 100vw;
+    }
+}

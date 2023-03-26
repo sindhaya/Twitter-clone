@@ -1,0 +1,58 @@
+.container{
+    color: #fff;
+    background-color: #16181C;
+   width: 90%;
+    border-radius: 12px;
+    height: max-content;
+    gap: 1rem;
+    padding: 0.5rem;
+   
+   
+}
+.container h1{
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+/* .main{
+    color: red;
+} */
+.wrapper{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.wrapper:hover{
+    background-color: #232323 ;
+    border-radius: 1rem;
+}
+.img{
+    flex-direction: column;
+    
+}
+.follwButton{
+    border-radius: 20px;
+    height: 1.875rem;
+    display: flex;
+    margin-left: 4rem;
+    width: 5rem;
+    flex-direction: row;
+ padding: 1rem;
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+.btn2{
+    background: none;
+    color: blueviolet;
+    font: 2px;
+    border: none;
+   outline: none;
+  }

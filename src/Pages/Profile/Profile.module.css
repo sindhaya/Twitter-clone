@@ -1,0 +1,35 @@
+.Main{
+    width: 100%; 
+    display: flex;
+}
+.container{
+    width: 26%;
+    height: 100%;
+   
+}
+
+.middleContainer{
+    width: 40%;
+}
+.rightContainer{
+    width:34%;
+    height: 100%;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+      display: none;
+    }
+
+.rightContainer{
+    display: none;
+}
+.middleContainer{
+    width: 153vw;
+}
+    
+}

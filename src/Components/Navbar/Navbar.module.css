@@ -1,0 +1,26 @@
+.feed__header {
+ 
+  top: 0;
+ background-color: black;
+  border-bottom: 1px rgb(60, 60, 60) solid;
+  padding: 0.93rem 1.25rem;
+  margin-top: auto;
+}
+
+.feed__header h2 {
+  font-size: 1.25rem;
+  font-weight: 50rem;
+  color:white;
+}
+.innercontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin-top: 2rem;
+  z-index: 5;
+}
+
+@media screen and (max-width:600px) {
+ 
+}

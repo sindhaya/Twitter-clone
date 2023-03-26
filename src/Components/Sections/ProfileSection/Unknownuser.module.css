@@ -1,0 +1,50 @@
+.wrapper {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px rgb(60, 60, 60) solid;
+
+  gap: 1rem;
+  padding: 2rem;
+}
+
+img {
+  width: 30rem ;
+  height: 30rem;
+   border-radius:15px;
+
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(102, 102, 192);
+}
+
+.img {
+  padding-left: 4rem;
+}
+
+.avatar {
+  z-index: -1;
+}
+
+@media screen and (max-width:600px) {
+  .wrapper {
+    width: 100vw;
+  }
+  img{
+    width: 70vw;
+    height: 40vh;
+  }
+
+}

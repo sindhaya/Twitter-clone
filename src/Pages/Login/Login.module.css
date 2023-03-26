@@ -1,0 +1,264 @@
+.container {
+    background-color: #242D34;
+    /* opacity: 0.5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.main {
+    width: 34rem;
+    height: 39rem;
+    border-radius: 1rem;
+    background-color: #000000;
+
+
+}
+
+.container1 {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    width: 298.400px;
+    height: 38.400px;
+    border-radius: 18px;
+    font-size: 15px;
+    vertical-align: center;
+}
+
+.btn1:hover {
+    background-color: #1A8CD8;
+}
+
+.btnForget {
+    border: none;
+    outline: none;
+    width: 298.400px;
+    height: 38.400px;
+    background-color: #000000;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    border-radius: 18px;
+    font-size: 15px;
+    vertical-align: center;
+}
+
+.logo {
+
+    color: #fff;
+    margin-top: 4px;
+    font-size: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 298px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+}
+
+.text {
+    height: 72px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    vertical-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    padding-bottom: 30px;
+}
+
+.or {
+    color: white;
+
+}
+
+.containerpass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.password {
+    margin-top: 150px;
+}
+
+.loginbtn {
+    width: 438.400px;
+    height: 50.6px;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.para {
+    color: #fff;
+}
+
+.para span {
+    color: #635eed;
+}
+
+.input2 {
+    width: 438px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container {
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120vh;
+        width: 120vw;
+
+    }
+
+    .main {
+        width: 36rem;
+        height: 34rem;
+        border-radius: 1rem;
+        background-color: white;
+        color: black;
+
+
+    }
+
+    .container1 {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn1 {
+        border: none;
+        outline: none;
+        width: 80vw;
+        height: 38.400px;
+        border-radius: 18px;
+        font-size: 15px;
+        vertical-align: center;
+    }
+
+    .btn1:hover {
+        background-color: #1A8CD8;
+    }
+
+    .btnForget {
+        border: none;
+        outline: none;
+        width: 80vw;
+        height: 38.400px;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid #fff;
+        border-radius: 18px;
+        font-size: 15px;
+        vertical-align: center;
+    }
+
+    .logo {
+
+        color: black;
+        margin-top: 4px;
+        font-size: 40px;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        width: 298px;
+        height: 56px;
+        background-color: white;
+        color: black;
+        border: 1px gray solid;
+        width: 80vw;
+    }
+
+    .text {
+        
+        height: 72px;
+        width: 300px;
+        color: black;
+        text-align: center;
+        vertical-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .or {
+        color: black;
+        
+
+    }
+
+    .containerpass {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .password {
+        margin-top: 150px;
+    }
+
+    .loginbtn {
+        width: 438.400px;
+        height: 50.6px;
+        border-radius: 1.5rem;
+        border: none;
+        outline: none;
+        font-size: 18px;
+    }
+
+    .para {
+        color: black;
+    }
+
+    .para span {
+        color: #635eed;
+    }
+
+    .input2 {
+        margin-top: 10vw;
+        width: 80vw;
+        height: 60px;
+        background-color: white;
+        color: black;
+        border: 1px gray solid;
+    }
+
+}

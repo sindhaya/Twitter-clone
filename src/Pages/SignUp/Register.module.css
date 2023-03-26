@@ -1,0 +1,363 @@
+.container {
+
+    background-color: #242D34;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+.reg-pg {
+    color: grey;
+    width: 27rem;
+}
+
+.container1 {
+    width: 34.6rem;
+    height: 43.6rem;
+    border-radius: 1rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.mainContainer h1 {
+    color: white;
+    font-size: 1.93rem;
+    margin-top: 4rem;
+    margin-bottom: 3vh;
+    margin-right: 3vw;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.logo {
+    color: #fff;
+    margin-top: 0.25rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-right: 2vw;
+
+}
+
+.CustomButton1 {
+    width: 18.62rem;
+    height: 2.37rem;
+    font-size: 0.875rem;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-right: 3vw;
+}
+
+.CustomButton2 {
+    width: 18.62rem;
+    height: 2.37rem;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-left: -3vw;
+}
+
+.CustomButton3 {
+    width: 18.62rem;
+    height: 2.37rem;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-left: 0vw;
+
+}
+
+.or {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    height: 3.12rem;
+    margin-right: 3vw;
+
+}
+
+.formbtn {
+    width: 27.4rem;
+    height: 3.12rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    margin-top: 1.5rem;
+    font-size: 18px;
+
+}
+
+.mainContainer {
+    margin-bottom: 0;
+    height: 100%;
+    margin-right: 0vw;
+
+}
+
+.toggle h6 {
+    margin-left: 18.5rem;
+    margin-top: 0.5rem;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 1vw;
+}
+
+.mainContainer .toggle {
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+.toggle {
+    color: #1677B8;
+}
+
+.signupbtn p {
+    font-size: 13px;
+    color: gray;
+    padding-top: 1rem;
+}
+
+.txt2 {
+    color: white;
+    font-weight: 400;
+    padding-top: 2rem;
+    margin-right: 6vw;
+}
+
+.input1 {
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+
+}
+
+.input2 {
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 145vw;
+        background-color: #000000;
+        color: #e6ecf0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+
+    .reg-pg {
+        color: grey;
+        width: 27rem;
+    }
+
+    .container1 {
+        width: 34.6rem;
+        height:35.6rem;
+        border-radius: 1rem;
+        background-color: #000000;
+        color: #e6ecf0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        /* margin-top: 203vw; */
+    }
+
+    .mainContainer h1 {
+        color: white;
+        font-size: 1.93rem;
+        margin-top: 4rem;
+        margin-bottom: 3vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 8vw;
+        margin-bottom: 13vw;
+    }
+
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3rem;
+    }
+
+    .logo {
+        color: white;
+        margin-top: 0.25rem;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+
+    }
+
+    .CustomButton1 {
+        width: 18.62rem;
+        height: 2.37rem;
+        font-size: 0.875rem;
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        margin-left: 12vw;
+        border: 1px solid white;
+    }
+
+    .CustomButton2 {
+        width: 18.62rem;
+        height: 2.37rem;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 1.81rem;
+        outline: none;
+        border: none;
+        margin-left: 6vw;
+        border: 1px solid white;
+    }
+    .CustomButton3 {
+        width: 18.62rem;
+        height: 2.37rem;
+        background-color: black;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 1.81rem;
+        outline: none;
+        border: none;
+        margin-left: 11vw;
+        border: 1px solid white;
+    }
+
+    .or {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5px;
+        height: 3.12rem;
+        margin-left: 12vw;
+
+    }
+
+    .formbtn {
+        width: 27.4rem;
+        height: 3.12rem;
+        border-radius: 1.5rem;
+        border: none;
+        outline: none;
+        margin-top: 12.5rem;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+
+    .formbtn:hover {
+        color: lightseagreen
+    }
+
+    .mainContainer {
+        margin-bottom: 0;
+        height: 100%;
+        margin-right: 27vw;
+
+    }
+
+    .toggle h6 {
+        margin-left: 18.5rem;
+        margin-top: 2vw;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 16.5rem;
+        margin-bottom: 2vw;
+    }
+
+    .mainContainer .toggle {
+        margin-left: 0;
+        padding-left: 0px;
+    }
+
+    .toggle {
+        color: #1677B8;
+    }
+
+    .signupbtn p {
+        font-size: 13px;
+        color: gray;
+        padding-top: 1rem;
+        margin-left: 4vw;
+    }
+
+    .txt2 {
+        color: white;
+        font-weight: 400;
+        padding-top: 2rem;
+    }
+
+    .input1 {
+        width: 438px;
+        height: 56px;
+        background-color: #000000;
+  color: #e6ecf0;
+        border: 1px gray solid;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        width: 110vw;
+    }
+
+    .input2 {
+        width: 438px;
+        height: 56px;
+        background-color: #000000;
+        color: #e6ecf0;
+        border: 1px gray solid;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+        width: 110vw;
+    }
+
+    .text-conf {
+        width: 94vw;
+    }
+}

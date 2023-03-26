@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+::selection {
+  background: #1da1f2;
+}
+
+.main {
+  background-color: #000000;
+  opacity: 0.8;
+  /* height: 4rem; */
+}
+.parentContainer{
+width: 100%;
+
+}
+.wrapper {
+  background: #000000;
+  color: #1da1f2;
+  max-width: 585px;
+  width: 37.5rem;
+  border-radius: 15px;
+  padding: 12px 5px 0 5px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  background-color: #000000;
+  color: #e6ecf0;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+  overflow: auto;
+}
+.btnClose{
+  background-color: transparent;
+  color: #e6ecf0;
+  margin: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.privacy:hover,
+.icons li:hover {
+  background: #000000;
+}
+
+.privacy i {
+  font-size: 18px;
+}
+
+.privacy span {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 7px;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #1a8cd8;
+  width: 5.5rem;
+  color: #e6ecf0;
+  padding: 0.6rem 0.4rem;
+  border-radius: 30rem;
+  margin: 0.2rem;
+  margin-left: 42%;
+  font-weight: bold;
+  min-height: 31px;
+  cursor: pointer;
+  font-size: medium;
+}
+.parentContainer{
+  background-color: #000000;
+  height: fit-content;
+}
+.parentContainer::before {
+  content: "";
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+  z-index: -1;
+}
+/* .bottom .icons {
+  display: inline-flex;
+
+} */
+
+.icons li {
+  list-style: none;
+  color: #1da1f2;
+  font-size: 20px;
+  
+  height: 34.4px;
+  width: 34.4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+}
+.iconscontainer{
+  border-top: 1px solid rgb(22, 24, 28);
+  z-index: 3;
+  display: flex;
+  gap: 1.5rem;
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.imageWrapper{
+  max-height: 20rem;
+  overflow: auto;
+}

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #50b7f5;
+    --twitter-background: #e6ecf0;
+   
+  }
+.container{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  right: 1.6rem;
+
+
+}
+
+  .sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap:0.89rem;
+    padding: 0.2rem 0.5rem;
+    width: max-content;
+   display:inline-flex;
+   text-align: center ;
+    font-family: "TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif";
+  }
+
+  
+  .sidebarOption h2 {
+    font-weight: 00;
+    font-size: 1.641rem;
+    color: rgb(231, 233, 234);
+   
+  }
+  .sidebarOption span{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+ 
+    
+  }
+  .container{
+    gap: 4rem;
+  }
+  .sidebarOption:hover {
+    background-color: rgb(77, 75, 75);
+    border-radius: 30px;
+    color: white;
+    transition: color 100ms ease-out;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+  }
+.innerContainer{
+  position: fixed;
+}
+  
+  .sidebarOptionactive {
+    color: var(--twitter-color);
+  }
+  
+  .sidebar__tweet {
+    width: 85%;
+    background-color: #1A8CD8;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 3.12rem;
+    /* margin-top: 1.25rem;  } */
+  }
+  
+  .sidebar {
+    color: white;
+    min-width: 15.6rem;
+    margin-top: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .fatwitter {
+    color: var(--twitter-color);
+    font-size: 30px;
+  }
+.Dialog{
+  backdrop-filter: blur(5px);
+}
+
+
+.logo
+{
+  font-weight: 800;
+  font-size: 1.641rem;
+  color: rgb(231, 233, 234);
+  width: max-content;
+ padding: 0.2rem 0.5rem;
+  margin-left: 1.01rem;
+  margin-top: 0.55rem;
+  border-radius: 8rem;
+  
+  
+}
+.logo:hover{
+  background-color: #131E3A;
+
+}

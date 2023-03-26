@@ -1,0 +1,21 @@
+
+.container{
+    margin-left: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1.5rem;
+    overflow-y: scroll;
+    width: 400px;   
+ 
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.copyright{
+    font-size: 1rem;
+    color: gray;
+    width: 21.1rem;
+}
